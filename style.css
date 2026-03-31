@@ -1,0 +1,315 @@
+.hero-isi {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+    margin-top: 40px;
+    padding: 40px 230px;
+}
+
+.text {
+    max-width: 400px;
+    text-align: left;
+}
+
+.text h3 {
+    font-size: 36px;
+    color: #b48a5a;
+    font-weight: bold;
+    margin-bottom: 18px;
+    margin-top: 0;
+}
+
+.text p {
+    font-size: 17px;
+    color: #444;
+    margin-bottom: 22px;
+    margin-top: 0;
+}
+
+.btn {
+    display: block;
+    background: #e0a84d;
+    color: white;
+    border-radius: 7px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 32px;
+    margin-top: 0;
+    width: fit-content;
+    text-align: center;
+    border: none;
+    transition: background 0.2s;
+}
+
+.btn:hover {
+    background: #c98c1a;
+}
+
+.gambar img {
+    width: 260px;
+    border-radius: 16px;
+    display: block;
+}
+/* hero section */
+.hero-judul {
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.hero-judul h1 {
+    font-size: 48px;
+    color: #a67c52;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.hero-judul p {
+    font-size: 18px;
+    color: #7a5c36;
+    margin-bottom: 0;
+}
+nav {
+    background: #8b5e3c;
+    color: white;
+    padding: 15px 40px;
+}
+
+nav h2 {
+    display: inline;
+    margin: 0;
+}
+
+nav ul {
+    float: right;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+/* hasil card */
+.hasil-container {
+    background: #fff;
+    border-radius: 12px;
+    max-width: 400px;
+    margin: 36px auto;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+    padding: 0 0 18px 0;
+    text-align: center;
+}
+.hasil-header {
+    padding: 18px 18px 0 18px;
+}
+.hasil-img {
+    width: 70px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.hasil-notif {
+    background: #ffe08a;
+    color: #4d3b00;
+    border-radius: 6px;
+    padding: 10px 8px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.hasil-detail {
+    text-align: left;
+    padding: 0 22px;
+    font-size: 15px;
+}
+.hasil-detail h3 {
+    text-align: center;
+    color: #a67c52;
+    margin: 10px 0 12px 0;
+}
+.hasil-total {
+    color: #b05a00;
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+    margin: 10px 0 12px 0;
+}
+.btn-hasil {
+    display: block;
+    width: 100%;
+    background: #e0a84d;
+    color: #fff !important;
+    text-decoration: none;
+    border-radius: 6px;
+    padding: 8px 0;
+    margin-top: 8px;
+    font-size: 15px;
+    text-align: center;
+    transition: background 0.2s;
+}
+.btn-hasil:hover {
+    background: #c98c1a;
+}
+/* body */
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #e8dfcf;
+}
+.form-container {
+    background: #fff;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 32px auto;
+    padding: 20px 18px 14px 18px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+    text-align: center;
+}
+
+.form-container h2 {
+    color: #7a5c36;
+    margin-bottom: 8px;
+    font-size: 22px;
+}
+
+.form-container h3 {
+    color: #7d6749;
+    margin-bottom: 6px;
+    font-size: 15px;
+}
+
+.form-container form {
+    text-align: left;
+}
+
+.form-container label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 4px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.form-container input[type="text"],
+.form-container select {
+    width: 100%;
+    padding: 7px 8px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    box-sizing: border-box;
+    background: #faf9f7;
+}
+
+.form-container input[type="checkbox"] {
+    margin-right: 6px;
+}
+
+.form-container button[type="submit"] {
+    width: 100%;
+    background: #e0a84d;
+    color: #fff;
+    border: none;
+    padding: 10px 0;
+    border-radius: 4px;
+    font-size: 15px;
+    margin-top: 12px;
+    cursor: pointer;
+    box-shadow: none;
+    transition: background 0.2s;
+}
+
+.form-container button[type="submit"]:hover {
+    background: #c98c1a;
+}
+    
+/* tombol */
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    background: #e0a84d;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* section kucing */
+.kucing {
+    text-align: center;
+    padding: 50px 200px;
+}
+
+.kucing h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* card */
+.card {
+    display: inline-block;
+    width: 220px;
+    background: #f5efe6;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 12px;
+    
+    /* INI YANG BIKIN MIRIP BANGET */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* form card */
+.form-container {
+    background: #fff;
+    border-radius: 15px;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 30px 30px 20px 30px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+    text-align: center;
+}
+
+.form-container h2 {
+    color: #a67c52;
+    margin-bottom: 5px;
+}
+
+.form-container form {
+    text-align: left;
+}
+
+.form-container label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-container input[type="text"],
+.form-container select {
+    width: 100%;
+    padding: 8px 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    box-sizing: border-box;
+}
